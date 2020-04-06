@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	background-color: #444;
+	padding: 10px 0;
+}
+footer p{
+ text-align: center;
+ margin: 0;
+ color: #fff;
+}
+footer p a{
+	color: #fff;
+
+}
+footer p a:hover{
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+header h1{
+	text-align: center;
+	color: #fff;
+}
+header{
+	background-color: teal;
+	padding: 30px 0;
+}
+.content-section{
+	background-color: #d4d4d4;
+	min-height: 100px;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+}
+.content-section p{
+	text-align: center;
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+}
+main{
+	background-color: #eee;
+}
+.typing-section{
+	text-align: center;
+	padding: 30px 0;
+}
+.typing-section textarea{
+	border: 8px solid #888;
+	border-radius: 10px;
+	width: 100%;
+	min-height: 200px;
+	/*text-indent: 10px;*/
+	padding: 10px;
+	font-weight: 600;
+}
+.typing-section textarea:focus{
+	outline: none;
+}
+.typing-section h2{
+	margin-bottom: 50px;
+}
+.btn-cust{
+	/*margin-top: 20px;*/
+	padding: 10px 20px;
+    font-size: 30px;
+    border: 7px solid #775300;
+    text-transform: uppercase;
+    color: #775300;
+    font-weight: 700;
+}
+.btn-cust:focus{
+	box-shadow: none;
+}
+.btn-cust:hover{
+	border: 7px solid #775300;
+}
+.timer p{
+	font-size: 45px;
+	font-weight: 600;
+}
+.teal-border{
+	border-color: #008080;
+}
